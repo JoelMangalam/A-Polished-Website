@@ -1,0 +1,409 @@
+* { box-sizing: border-box; }
+	body { font-family: Verdana, Arial, sans-serif; background-color: #330000;	
+	background-image: url("../images/border.jpg"), url("../images/border.jpg");}
+	/*header, h1, .wrapper { margin-top: 0; }*/
+	.wrapper {  
+				background-color: beige; 
+	        	width: 94%;	margin: auto; color: #330000;
+				display: grid;
+				grid-template-rows: 400px auto auto 50px;
+				} 
+	h1 { color: #ff6a06; }
+	h2 { color: brown; }
+	header { background-image: url(../images/cricket_header.jpg);
+				height: 100%;
+				background-repeat: no-repeat;  	
+		 		background-size: cover; 
+				grid-row: 1 / 2;
+				}
+				
+		h1 { text-align: center; padding: 5% 0;
+     		text-shadow: 3px 3px 3px cornsilk;	
+			font-size: 75px;
+			}
+	.topnav {
+			overflow: hidden;
+			background-color: #333;
+			}
+
+	.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			}
+
+	.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+			}
+
+	.topnav a:active {
+			background-color: #4CAF50;
+			color: white;
+			}
+	
+	
+	
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  /*width: 180px;*/
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  
+}
+.gallery {
+  position: relative;
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.bradman {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.jack_hobbs {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.sobers {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.ian_botham {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.vivian_richards {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.curtly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.gavaskar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.kapildev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.sachin {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.mcgrath {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.lara {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.shane_warne {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.imrankhan {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.muralitharan {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.kallis {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.gilchrist {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.wasim_akram {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.jayasuriya {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.andy_flower {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.ricky_ponting {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.gallery:hover .bradman {
+  opacity: 1;
+}
+.gallery:hover .jack_hobbs {
+  opacity: 1;
+}
+.gallery:hover .sobers {
+  opacity: 1;
+}
+.gallery:hover .ian_botham {
+  opacity: 1;
+}
+.gallery:hover .vivian_richards {
+  opacity: 1;	
+}
+.gallery:hover .curtly {
+  opacity: 1;
+}
+.gallery:hover .gavaskar {
+  opacity: 1;
+}
+.gallery:hover .kapildev {
+  opacity: 1;
+}
+.gallery:hover .sachin {
+  opacity: 1;
+}
+.gallery:hover .mcgrath {
+  opacity: 1;
+}
+.gallery:hover .lara {
+  opacity: 1;
+}
+.gallery:hover .shane_warne {
+  opacity: 1;
+}
+.gallery:hover .imrankhan {
+  opacity: 1;
+}
+.gallery:hover .muralitharan {
+  opacity: 1;
+}
+.gallery:hover .kallis {
+  opacity: 1;
+}
+.gallery:hover .gilchrist {
+  opacity: 1;
+}
+.gallery:hover .wasim_akram {
+  opacity: 1;
+}
+.gallery:hover .jayasuriya {
+  opacity: 1;
+}
+.gallery:hover .andy_flower {
+  opacity: 1;
+}
+.gallery:hover .ricky_ponting{
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+	main{
+		grid-row: 3 / 4;
+		
+	 background-image: url("../images/background.jpg"), url("../images/background.jpg");
+	}
+	footer { grid-row: 4 / 5;
+		 background-image: url("../images/background.jpg"), url("../images/background.jpg");
+		font-size:12px;
+		padding-left: 10px;
+		padding-top: 10px;
+		color: #003300;
+	}

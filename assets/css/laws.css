@@ -1,0 +1,78 @@
+	* { box-sizing: border-box; }
+	body { font-family: Verdana, Arial, sans-serif; background-color: #330000;	
+	background-image: url("../images/border.jpg"), url("../images/border.jpg");}
+	/*header, h1, .wrapper { margin-top: 0; }*/
+	.wrapper {  
+				background-color: beige; 
+	        	width: 90%;	margin: auto; color: #330000;
+				display: grid;
+				grid-template-rows: 400px auto auto 100px;
+				} 
+	h1 { color: #ff6a06; }
+	h2 { color: brown; }
+	header { background-image: url(../images/cricket_header.jpg);
+				height: 100%;
+				background-repeat: no-repeat;  	
+		 		background-size: cover; 
+				grid-row: 1 / 2;
+				}
+				
+		h1 { text-align: center;  padding: 5% 0;
+     		text-shadow: 3px 3px 3px cornsilk;	
+			font-size: 75px;
+			}
+	.topnav {
+			overflow: hidden;
+			background-color: #333;
+			}
+
+	.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			}
+
+	.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+			}
+
+	.topnav a:active {
+			background-color: #4CAF50;
+			color: white;
+			}
+	
+	main{
+		grid-row: 3 / 4;
+		padding: 0 1em;
+		 background-image: url("../images/background.jpg"), url("../images/background.jpg");
+	}
+	.field img {
+			float: right; clear: both;
+			text-align: center;
+	}
+	.pitch img {
+			width : 100%;
+			padding : 1em;	
+	}
+	.gameplay img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width : 60%
+	}
+	.fielding img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+	}
+	footer { grid-row: 4 / 5;
+		 background-image: url("../images/background.jpg"), url("../images/background.jpg");
+		font-size:12px;
+		padding-left: 10px;
+		padding-top: 50px;
+		color: #003300;
+	}
